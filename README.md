@@ -2,4 +2,4 @@
 
 ## Modulo 01 - Architetture e sistemi (32 ore)
 
-- [Lezione 1](.\modulo01\lezione-1.md): Struttura del calcolatore, Sistema operativo
+- [Lezione 1](/andrea-colleoni/ifts-2021/blob/main/modulo-01/lezione-1.md): Struttura del calcolatore, Sistema operativo

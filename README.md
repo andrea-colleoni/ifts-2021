@@ -4,3 +4,8 @@
 
 - [Lezione 1](/modulo-01/lezione-1.md): Struttura del calcolatore, Sistema operativo
 - [Lezione 2](/modulo-01/lezione-2.md): Networking
+
+
+## Links utili:
+
+- https://www.markdownguide.org/basic-syntax/

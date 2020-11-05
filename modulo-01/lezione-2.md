@@ -27,4 +27,9 @@ __Data__: 05/11/2020
 ## Riferimenti, bibliografia, sitografia
 
 - https://it.wikipedia.org/wiki/Modello_OSI
+- https://it.wikipedia.org/wiki/Suite_di_protocolli_Internet
 - https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers
+- https://it.wikipedia.org/wiki/Domain_Name_System
+- https://it.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol
+- https://it.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol
+- https://it.wikipedia.org/wiki/Hypertext_Transfer_Protocol

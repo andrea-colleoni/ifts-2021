@@ -2,7 +2,7 @@
 
 ## Utilizzare i comandi del sistema operativo per otterenere informazioni sulla rete
 
-Eseguire i seguenti comandi e riportare i risultato in un file denominato __info-rete.ms__ nella cartella __Work\Modulo1__ sul *Desktop*
+Eseguire i seguenti comandi e riportare i risultato in un file denominato __info-rete.md__ nella cartella __Work\Modulo1__ sul *Desktop*
 
 - Utilizzare il comando __ipconfig__ per rilevare la configurazione dei propri dispositivi di rete; annotare sul file dei risultati le seguenti informazioni:
   - Indirizzo IP

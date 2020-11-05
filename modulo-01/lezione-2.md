@@ -20,9 +20,9 @@ __Data__: 05/11/2020
   - SSH e RDP per il controllo remoto
   - HTTP per il trasferimento di testo
 
-
 ## Esercitazioni
 
+- [Esercizio 2](/modulo-01/esercizio-2.md): utilizzare i comandi del sistema operativo per otterenere informazioni sulla rete
 
 ## Riferimenti, bibliografia, sitografia
 

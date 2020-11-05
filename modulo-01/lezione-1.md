@@ -32,7 +32,7 @@ __Data__: 04/11/2020
 
 ## Esercitazioni
 
-- esercizio-1.md: installazione di SW e rilevazione delle caratteristiche del proprio PC
+- - [Esercizio 1](/modulo-01/esercizio-1.md): installazione di SW e rilevazione delle caratteristiche del proprio PC
 
 
 ## Riferimenti, bibliografia, sitografia

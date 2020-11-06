@@ -1,44 +1,36 @@
-# Lezione 2
+# Lezione 3
 
-__Data__: 05/11/2020
+__Data__: 06/11/2020
 
 ## Argomenti
 
-- Networking: modello a strat (layer) ISO/OSI e modello IP
-  - Livello fisico: mezzi di comunicazione
-  - Livello Data Link: affidabilità dei messaggi, Frame, MAC Address
-  - Livello Rete: instradamento, indirizzi IP
-    - Configurazione di rete: indirizzo IP, subnet mask, gateway
-    - Routing
-  - Livello trasporto: TCP e UDP, porte
-  - Livello applicativo: servizi di rete
-- Protocolli e Servizi di rete
-  - DNS e nomi di dominio
-  - DHCP e autoconfigurazione della rete
-  - SMTP per lo smistamento della posta elettronica
-  - FTP per il trasferimento di file
-  - SSH e RDP per il controllo remoto
-  - HTTP per il trasferimento di testo
+- Comunicazione tra processi
+  - RPC: chiamata di procedura remota
+- Architetture di elaborazione distribuita
+  - Modello Host/Terminale
+  - Modello Peer-To-Peer
+  - Modello a Code
+  - Modello Client/Server
+    - Client e Server sulla rete
+    - Client e server sullo stesso computer
+    - Il proprio computer sulla rete: localhost (127.0.0.1)
+    - Un esempio di SW client/server: MS SQL Server
+      - Installazione di MS SQL Server Developer
+      - Commessione del client al server: cenno al sistema di risoluzione dei nomi WINS
+  - Esempio di archiettura distribuita: applicazione Full Stack
+    - Esempio di interazione full stak: la registrazione di un utente
+  - Infrastruttura fisica
+    - Tipi di infrastruttura: on-premise, VPS, Cloud, Hosting
+    - Virtualizzazione: esempio di provisioning di una VM in Hyper-V
+    - Cloud: esempio di provisioning di una VM in Google Cloud Platform
+    - Considerazioni generali sui costi delle infrastrutture
 
 ## Strumenti utilizzati (ambiente Windows CMD)
 
-- __ipconfig__: mostra la configurazione di rete
-- __ping__: verifica la raggiungibilità di un punto nella rete (utilizzando il protocollo ICMP)
-- __tracert__: rileva la traccia dell'attraversamento dei router da una sorgente ad una destinazione
-- __nslookup__: permette di interrogare un server DNS per ottenere indirizzi IP da nomi di host
-- __netstat__: permette di visualizzare quali porte TCP o UDP sono in uso su un sistema
-- __Wireshark__: programma di packet capture che permette di analizzare i pacchetti in transito dal livello Data link in su
-
-## Esercitazioni
-
-- [Esercizio 2](/modulo-01/esercizio-2.md): utilizzare i comandi del sistema operativo per otterenere informazioni sulla rete
+- __MS SQL Server__: un database server
+- __MS SQL Server Management Studio__: il client per MS SQL Server
+- __ProcessHacker__: un modo alternativo per visualizzare l'uso delle risorse del computer; usato per visualizzare le porte impegnate dai servizi
+- __App "Servizi"__: un'app di sistema per visualizzare i servizi in background
+- __Hyper-V__: un SW di virtualizzazione installabile in Windows 10 PRO (alternative possono essere __VM Ware__ o __VirtualBox__)
 
 ## Riferimenti, bibliografia, sitografia
-
-- https://it.wikipedia.org/wiki/Modello_OSI
-- https://it.wikipedia.org/wiki/Suite_di_protocolli_Internet
-- https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers
-- https://it.wikipedia.org/wiki/Domain_Name_System
-- https://it.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol
-- https://it.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol
-- https://it.wikipedia.org/wiki/Hypertext_Transfer_Protocol

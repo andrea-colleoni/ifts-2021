@@ -4,6 +4,7 @@
 
 - [Lezione 1](/modulo-01/lezione-1.md): Struttura del calcolatore, Sistema operativo
 - [Lezione 2](/modulo-01/lezione-2.md): Networking
+- [Lezione 3](/modulo-01/lezione-3.md): Architetture distribuite
 
 
 ## Links utili:

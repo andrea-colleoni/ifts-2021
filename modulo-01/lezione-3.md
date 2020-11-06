@@ -34,3 +34,16 @@ __Data__: 06/11/2020
 - __Hyper-V__: un SW di virtualizzazione installabile in Windows 10 PRO (alternative possono essere __VM Ware__ o __VirtualBox__)
 
 ## Riferimenti, bibliografia, sitografia
+
+- https://it.wikipedia.org/wiki/Architettura_di_rete
+- https://it.wikipedia.org/wiki/Sistema_distribuito
+- https://it.wikipedia.org/wiki/Mainframe
+- https://it.wikipedia.org/wiki/Peer-to-peer
+- https://it.wikipedia.org/wiki/Sistema_client/server
+- https://it.wikipedia.org/wiki/Architettura_multi-tier
+- https://it.wikipedia.org/wiki/Localhost
+- https://it.wikipedia.org/wiki/Virtualizzazione
+- https://it.wikipedia.org/wiki/Macchina_virtuale
+- https://it.wikipedia.org/wiki/Hypervisor
+- https://it.wikipedia.org/wiki/On-premises_software
+- https://it.wikipedia.org/wiki/Cloud_computing

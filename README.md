@@ -9,4 +9,11 @@
 
 ## Links utili:
 
-- https://www.markdownguide.org/basic-syntax/
+- https://code.visualstudio.com/: *Visual Studio Code*, un editor per developers
+- https://www.markdownguide.org/basic-syntax/: guida sulla sintassi *MarkDown*
+- https://www.7-zip.org/: un ottimo gestore di archivi compressi
+- https://processhacker.sourceforge.io/: un gestore di processi più avanzato
+- https://www.microsoft.com/it-it/sql-server/sql-server-downloads: RDBMS MS SQL Server
+- https://www.tiobe.com/tiobe-index/: i linguaggi più usati
+- https://gs.statcounter.com/: statistiche sulla diffusione dei dispositivi usati in internet
+- https://w3techs.com/technologies: statistiche sull'uso di infrastrutture in internet

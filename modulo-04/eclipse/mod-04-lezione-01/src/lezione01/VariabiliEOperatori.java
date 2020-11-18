@@ -40,6 +40,9 @@ public class VariabiliEOperatori {
 		// modulo (remainder): è il resto della divisione intera tra due numeri
 		System.out.println(10 % 3); // 1 è il resto della divisione
 		
+		// valore assoluto
+		int w = Math.abs(-1); // restituisce 1
+		
 		long x = 10;
 		System.out.println(x);
 		x++; // incremento x, che diventa quindi 11

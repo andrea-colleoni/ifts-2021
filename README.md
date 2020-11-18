@@ -6,7 +6,7 @@
 - [Lezione 2](/modulo-01/lezione-2.md): Networking
 - [Lezione 3](/modulo-01/lezione-3.md): Architetture distribuite
 
-## Modulo 01 - Architetture e sistemi (32 ore)
+## Modulo 04 - Realizzazione di applicazioni in Java (72 ore)
 
 - [Lezione 1](/modulo-04/lezione-1.md):
 

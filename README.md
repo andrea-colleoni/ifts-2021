@@ -9,6 +9,7 @@
 ## Modulo 04 - Realizzazione di applicazioni in Java (72 ore)
 
 - [Lezione 1](/modulo-04/lezione-1.md): Introduzione a Java
+- [Lezione 2](/modulo-04/lezione-2.md): Classi e oggetti
 
 ## Links utili:
 

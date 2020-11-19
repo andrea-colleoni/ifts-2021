@@ -2,5 +2,5 @@
 
 ## Eseguire i seguenti esercizi presenti nella cartella "esercizi"
 
-- esercizi_02.pdf: es. 1 e 2
-- esercizi_03.pdf: es. 5
+- [esercizi_02.pdf](/esercizi/esercizi_02.pdf): es. 1 e 2
+- [esercizi_03.pdf](/esercizi/esercizi_03.pdf): es. 5

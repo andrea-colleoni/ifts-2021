@@ -25,7 +25,7 @@ public class Oggetti {
 		a.saluta();
 		b.saluta();
 		
-		a.aletzzaInCm = 185;
+		a.altezzaInCm = 185;
 		b.pesoInKg = 85.3F;
 		
 	}

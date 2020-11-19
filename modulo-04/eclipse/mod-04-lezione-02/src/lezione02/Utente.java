@@ -9,7 +9,7 @@ public class Utente {
 	String cognome;
 	String email;
 	String numeroTelefono;
-	int aletzzaInCm;
+	int altezzaInCm;
 	float pesoInKg;
 	
 	// void indica che questo metodo

@@ -10,6 +10,7 @@
 
 - [Lezione 1](/modulo-04/lezione-1.md): Introduzione a Java
 - [Lezione 2](/modulo-04/lezione-2.md): Classi e oggetti
+- [Lezione 3](/modulo-04/lezione-3.md): Uso della memoria e collezioni
 
 ## Links utili:
 

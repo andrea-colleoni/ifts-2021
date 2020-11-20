@@ -2,7 +2,7 @@
 
 __Data__: 18/11/2020  
 [Torna all'indice](/README.md)  
-[Progetto eclipse della lezione](/modulo-04/eclipse/mod-04-lezione01/src)
+[Progetto eclipse della lezione](/modulo-04/eclipse/mod-04-lezione-01/src)
 
 ## Argomenti
 

@@ -12,12 +12,12 @@
 
 ### Esempio:  
 Quante lampadine nel filare? 10    
-```*-*-*-*-*-```  
+<pre>*-*-*-*-*-</pre>
 - Creare un altro programma che realizzi un gioco di luci con il filare di n lampadine; il gioco di luci, alterna lo stato acceso/spento di ogni luce nel filare e ripete il gioco di luci n volte;
 
 ### Esempio:  
 Quante lampadine nel filare? 10  
-```*-*-*-*-*-
+<pre>*-*-*-*-*-
 -*-*-*-*-*
 *-*-*-*-*-
 -*-*-*-*-*
@@ -26,4 +26,4 @@ Quante lampadine nel filare? 10
 *-*-*-*-*-
 -*-*-*-*-*
 *-*-*-*-*-
--*-*-*-*-*
+-*-*-*-*-*</pre>

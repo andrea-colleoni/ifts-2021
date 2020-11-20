@@ -25,3 +25,6 @@ I libri sono nella cartella "books"
 
 - [Book n. 1: Java 1_ Basic syntax and semantics.pdf](/books/Java%201_%20Basic%20syntax%20and%20semantics.pdf)
 - [Book n. 2: Java.pdf](/books/Java.pdf)
+- [Tipi di dati primitivi](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
+- [If](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html)
+- [For](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html)

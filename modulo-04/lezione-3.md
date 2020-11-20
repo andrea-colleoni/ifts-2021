@@ -8,7 +8,8 @@ __Data__: 20/11/2020
 
 ## Esercitazioni
 
-- [Esercizio 3](/modulo-04/esercizio-3.md): vari esercizi assegnati su pdf
+- [Esercizio 3](/modulo-04/esercizio-3.md): Lampadina
+- [Esercizio 4](/modulo-04/esercizio-4.md): Gara di automobili
 
 
 ## Riferimenti, bibliografia, sitografia

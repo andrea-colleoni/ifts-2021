@@ -1,7 +1,7 @@
 # Modulo 4 - Lezione 3
 
 __Data__: 20/11/2020  
-[Torna all'indice](README.md)
+[Torna all'indice](/README.md)  
 [Progetto eclipse della lezione](/modulo-04/eclipse/mod-04-lezione03/src)
 
 ## Argomenti

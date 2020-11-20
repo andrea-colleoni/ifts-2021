@@ -1,6 +1,6 @@
 # Esercizio 2: Esercizi di base  
-[Torna all'indice](README.md)
-[Torna alla lezione](/modulo-04/lezione-2.md)
+[Torna all'indice](README.md)  
+[Torna alla lezione](/modulo-04/lezione-2.md)  
 [Progetto eclipse della lezione](/modulo-04/eclipse/mod-04-lezione-02/src)
 
 ## Eseguire i seguenti esercizi presenti nella cartella "esercizi"

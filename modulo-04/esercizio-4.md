@@ -1,6 +1,6 @@
 # Esercizio 4: Gara di automobili   
-[Torna all'indice](README.md)
-[Torna alla lezione](/modulo-04/lezione-3.md)
+[Torna all'indice](README.md)  
+[Torna alla lezione](/modulo-04/lezione-3.md)  
 [Progetto eclipse della lezione](/modulo-04/eclipse/mod-04-lezione03/src)
 
 ## Gara di automobili

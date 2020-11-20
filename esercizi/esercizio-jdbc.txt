@@ -1,0 +1,37 @@
+Esercizio JDBC
+--------------
+
+1. Creare un nuovo Database su MariaDB
+1.1 Nome del database: garage
+
+2. Aggiungere la tabella automobili
+
+2.1 colonna id: int, chiave primaria
+2.2 colonna marca: varchar(50)
+2.3 colonna modello: varchar(50)
+2.4 colonna cilindrata: float
+2.5 colonna data_immatricolazione: date
+2.5 colonna numero_posti: int
+
+3. Inserire almeno 3 record nella tabella automobili
+
+4. scrivere un programma java che usando JDBC utilizzi il database garage
+
+4.1 proporre un menu di comandi con le seguenti funzioni
+4.1.1 elenco delle automobili: stampa a schermo un elenco con marca | modello | numero_posti 
+4.1.2 ricerca automobile per marca: 
+4.1.2.1 chiede all'utente la marca
+4.1.2.2 stampa a schermo un elenco delle automobili di quella marca con marca | modello | numero_posti 
+4.1.3 inserimento automobile
+4.1.3.1 chiede all'utente i dati di un'automobile
+4.1.3.2 inserisce l'automobile nella tabella
+4.1.4 esporta automobili: crea un file di testo chiamato esportazione_auto.txt con il risultato del punto 4.1.1
+4.1.5 uscita dal programma
+
+5. creare un nuovo repository personale su GitHub
+
+5.1 creare un repository sul proprio profilo
+5.2 clonare il repository su eclipse
+5.3 condividere il progetto con l'esercizio sul repository
+5.4 eseguire commit & push dell'esercizio
+5.5 aggiungere il prof. tra il collaboratori del repository (user: andrea-colleoni)

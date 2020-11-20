@@ -1,0 +1,28 @@
+Gara di automobili
+
+Rappresentare una classe Automobile con le seguenti caratteristiche:
+- nome: String
+- accesa: boolean
+- livelloCarburante: float
+- kmPercorsi: float
+- consumoKmLitro: float
+- capacitaSerbatoio: float
+La classe, oltre ai getters/setters, dovrà anche implementare i seguenti metodi:
+- accendi(): cambia la proprietà accesa mettendola a true
+- spegni(): cambia la proprietà accesa mettendola a false
+- viaggia(km: float): permette alla macchina, se accesa e se ha carburante sufficiente, di percorrere i km indicati come argomento; aggiorna il totale dei km percorsi dall'auto; aggiorna il livello del carburante in base al consumoKmLitro
+- rifornimento(litri: float): aggiorna il livello del carburante, aggiungendo i litri indicati come argomento, se i litri forniti non superano la capacità resudua del serbatoio
+
+Una volta rappresentata la classe Automobile, creare una classe eseguibile (con il metodo main) chiamata Gara.
+L'implementazione della gara prevede le seguenti operazioni:
+- creazione di 5 automobili
+- inizializzazione delle automobili con:
+	- nome
+	- consumoKmLitro: numero casuale compreso tra 15 e 25
+	- capacitaSerbatoio: numero casuale compreso tra 35 e 60
+- rifornimento iniziale delle automobili con un numero di litri casuale cmpreso tra 10 e 50
+- svolgimento della gara
+	- il programma fa percorrere alle auto 1 km alla volta
+	- le auto viaggiano finché hanno caburante
+	- il programma continua finché tutte le auto non si sono fermate
+	- quando tutte le auto si sono fermate il programma visualizza l'ordine di arrivo, dall'auto che ha percorso più strada all'auto che ne ha percorsa meno

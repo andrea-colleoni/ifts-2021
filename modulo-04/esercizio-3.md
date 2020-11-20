@@ -1,5 +1,5 @@
 # Esercizio 3 : Lampadina  
-[Torna all'indice](README.md)  
+[Torna all'indice](/README.md)  
 [Torna alla lezione](/modulo-04/lezione-3.md)  
 [Progetto eclipse della lezione](/modulo-04/eclipse/mod-04-lezione03/src)
 

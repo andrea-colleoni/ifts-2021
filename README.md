@@ -12,6 +12,10 @@
 - [Lezione 2](/modulo-04/lezione-2.md): Classi e oggetti
 - [Lezione 3](/modulo-04/lezione-3.md): Uso della memoria e collezioni
 
+## Modulo 05 - Gestione dati e database (40 ore)
+
+- [Lezione 1](/modulo-05/lezione-1.md): Introduzione RDBMS, data modeling
+
 ## Links utili:
 
 - https://code.visualstudio.com/: *Visual Studio Code*, un editor per developers

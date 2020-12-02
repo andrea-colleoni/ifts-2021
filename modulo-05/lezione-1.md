@@ -41,4 +41,13 @@ __Data__: 02/12/2020
 
 I libri sono nella cartella "books"
 
-- 
+- [Base di dati](https://it.wikipedia.org/wiki/Base_di_dati)
+- [RDBMS](https://it.wikipedia.org/wiki/Relational_database_management_system)
+- [Modello relazionale](https://it.wikipedia.org/wiki/Modello_relazionale)
+- [Modello ER](https://it.wikipedia.org/wiki/Modello_E-R)
+- [Crow's foot notation](http://www2.cs.uregina.ca/~bernatja/crowsfoot.html)
+- [Chiave primaria](https://en.wikipedia.org/wiki/Primary_key)
+- [Chiave esterna](https://en.wikipedia.org/wiki/Foreign_key)
+- [Data Modeling Guide (PDF - ENG)](/books/dataModelingGuide.pdf)
+- [Creating a Database with Tables and Relationships (MS SQL) - Video (ENG)](https://www.youtube.com/watch?v=H7uGGg1BQ2Y)
+- [Normalizzazione](https://it.wikipedia.org/wiki/Normalizzazione_(informatica))

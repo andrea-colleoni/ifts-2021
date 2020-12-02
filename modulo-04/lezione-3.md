@@ -13,7 +13,7 @@ __Data__: 20/11/2020
 - Limiti degli array
 - Introduzione al Java Collections Framework (JCF): ArrayList
 - Cenno all'esistenza dei generics
-- Aloritmo di ordinamento Bubble sort
+- Algoritmo di ordinamento Bubble sort
 - Sort con il JCF
 
 ## Esercitazioni

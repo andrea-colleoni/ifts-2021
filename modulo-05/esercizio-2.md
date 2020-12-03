@@ -7,7 +7,7 @@
   - File > Apri > File
   - Esplora fino allo script 
   - Una volta aperto lo script in SSMS premere "Esegui"
-  
+
 # Scrivere le seuenti query in SQL sullo schema "ricette"
 
 - Elencare tutti i record della tabella ricette
@@ -19,4 +19,10 @@
 - Elencare le ricette del primo cuoco (id_cuoco = 1) di categoria "primi"
 - Elencare le istruzioni operative per realizzare la la ricetta con id_ricetta = 1
 - Elencare gli ingredienti presenti nelle ricette usando questo modello di testo:
-  - 
+  - "La ricetta xxx contiene yyy zzz di iii", dove
+    - xxx: è il nome della ricetta
+    - yyy: è l'unità di misura dell'ingrediente
+    - zzz: è la quantità di ingrediente
+    - iii: è il nome dell'ingrediente
+- Elencare le quantità effettive di ingredienti utilizzate durante i passi operativi eseguiti per realizzare un Tiramisù
+- Elencare i passi operativi per produrre il Tiramisù in ordine di esecuzione

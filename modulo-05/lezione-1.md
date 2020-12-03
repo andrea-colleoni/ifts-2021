@@ -51,3 +51,5 @@ I libri sono nella cartella "books"
 - [Data Modeling Guide (PDF - ENG)](/books/dataModelingGuide.pdf)
 - [Creating a Database with Tables and Relationships (MS SQL) - Video (ENG)](https://www.youtube.com/watch?v=H7uGGg1BQ2Y)
 - [Normalizzazione](https://it.wikipedia.org/wiki/Normalizzazione_(informatica))
+- [Download SQL Server](https://www.microsoft.com/it-it/sql-server/sql-server-downloads)
+- [Download SQL Server Management Studio](https://docs.microsoft.com/it-it/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15#download-ssms)

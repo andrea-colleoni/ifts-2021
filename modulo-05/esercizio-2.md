@@ -2,11 +2,12 @@
 
 # Creare il database ricette
 
-- Eseguire in SLQ Server Management Studio lo script presente nella cartella query/db-ricette.sql
+- Eseguire in SQL Server Management Studio lo script presente nella cartella query/db-ricette.sql
   - Scarucare lo script sul proprio PC
   - File > Apri > File
   - Esplora fino allo script 
   - Una volta aperto lo script in SSMS premere "Esegui"
+- __OPPURE__: copiare e incollare lo script in una nuova finestra query
 
 # Scrivere le seuenti query in SQL sullo schema "ricette"
 

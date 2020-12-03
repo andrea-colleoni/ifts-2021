@@ -6,6 +6,23 @@ __Data__: 03/12/2020
 ## Argomenti
 
 - Soluzione esercizio della lezione 1 e commenti
+- Realizzazione del DB __ricette__
+- Introduzione a SQL
+- Gli operatori dell'algebra relazionale
+- I dati come matrici di valori
+- Proiezione: significato ed esempi
+- La clausola SELECT in SQL
+- La clausola FROM in SQL
+- Selezione: predicati di selezione, significato ed esempi
+- La clausola WHERE in SQL
+- Congiunzione: dal prodotto cartesiano alla selezione delle righe __corrispondenti__
+- La clausola FROM con più tabelle
+- Uso del predicato di congiunzione nella clausola WHERE
+- La clausola JOIN ON per esprimere la congiunzione
+- Congiunzione di più di due tabelle
+- Utilizzo di CASE WHEN
+- Utilizzo della funzione CONCAT()
+- La clausola ORDER BY (cenno)
 
 ## Esercitazioni
 
@@ -15,15 +32,5 @@ __Data__: 03/12/2020
 
 I libri sono nella cartella "books"
 
-- [Base di dati](https://it.wikipedia.org/wiki/Base_di_dati)
-- [RDBMS](https://it.wikipedia.org/wiki/Relational_database_management_system)
-- [Modello relazionale](https://it.wikipedia.org/wiki/Modello_relazionale)
-- [Modello ER](https://it.wikipedia.org/wiki/Modello_E-R)
-- [Crow's foot notation](http://www2.cs.uregina.ca/~bernatja/crowsfoot.html)
-- [Chiave primaria](https://en.wikipedia.org/wiki/Primary_key)
-- [Chiave esterna](https://en.wikipedia.org/wiki/Foreign_key)
-- [Data Modeling Guide (PDF - ENG)](/books/dataModelingGuide.pdf)
-- [Creating a Database with Tables and Relationships (MS SQL) - Video (ENG)](https://www.youtube.com/watch?v=H7uGGg1BQ2Y)
-- [Normalizzazione](https://it.wikipedia.org/wiki/Normalizzazione_(informatica))
-- [Download SQL Server](https://www.microsoft.com/it-it/sql-server/sql-server-downloads)
-- [Download SQL Server Management Studio](https://docs.microsoft.com/it-it/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15#download-ssms)
+- [SQL](https://it.wikipedia.org/wiki/Structured_Query_Language)
+- [SQL Tutorial](https://www.w3schools.com/sql/)

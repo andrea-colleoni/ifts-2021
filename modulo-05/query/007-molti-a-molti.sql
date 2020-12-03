@@ -10,6 +10,5 @@ from
 	on r.id_ricetta = ri.id_ricetta
 	join ingrediente i
 	on ri.id_ingrediente = i.id_ingrediente
-
 where
 	r.nome_ricetta = 'Tiramisù'

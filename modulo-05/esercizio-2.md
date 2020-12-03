@@ -27,3 +27,6 @@
     - iii: è il nome dell'ingrediente
 - Elencare le quantità effettive di ingredienti utilizzate durante i passi operativi eseguiti per realizzare un Tiramisù
 - Elencare i passi operativi per produrre il Tiramisù in ordine di esecuzione
+- Elencare gli ingredienti usati nelle ricette di Andrea
+- Elencare le ricette che contengono caffè
+- Elencare i primi di Andrea che contengono basilico

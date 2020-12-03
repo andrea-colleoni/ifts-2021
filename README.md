@@ -15,7 +15,7 @@
 ## Modulo 05 - Gestione dati e database (40 ore)
 
 - [Lezione 1](/modulo-05/lezione-1.md): Introduzione RDBMS, data modeling
-- [Lezione 2](/modulo-05/lezione-2.md): ...
+- [Lezione 2](/modulo-05/lezione-2.md): Operatori relazionali e SQL
 
 ## Links utili:
 

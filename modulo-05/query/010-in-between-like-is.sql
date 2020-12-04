@@ -92,3 +92,10 @@ select 1 + 2 + 4 + NULL -- <= NULL perché uno degli operandi è ignoto (NULL), qu
 				        --    il risultato è parimenti ignoto
 
 -- per inserire un NULL in una cella con SSMS si usa la combinazione CTRL + 0
+select
+	i.*
+from
+	istruzione i
+where
+	TRIM(i.unita_misura_tempo) = '' -- TRIM in un CHAR/VARCHAR elimina gli spazi prima del
+									-- primo carattere e dopo l'ultimo carattere

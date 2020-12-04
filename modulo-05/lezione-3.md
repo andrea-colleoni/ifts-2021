@@ -7,6 +7,7 @@ __Data__: 04/12/2020
 
 - Soluzione esercizio della lezione 2 e commenti
 - Ripasso sugli argomenti richiesti
+- L'associazione uno a uno
 - Operatori di selezione: IN, BETWEEN, LIKE, IS
 - Il concetto di NULL nel DB
 
@@ -27,5 +28,5 @@ __Data__: 04/12/2020
 
 I libri sono nella cartella "books"
 
-- [SQL](https://it.wikipedia.org/wiki/Structured_Query_Language)
-- [SQL Tutorial](https://www.w3schools.com/sql/)
+- [NULL](https://it.wikipedia.org/wiki/NULL)
+- [Operatori dell'algebra relazionale (ENG)](https://en.wikipedia.org/wiki/Relational_algebra)

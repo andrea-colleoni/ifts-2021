@@ -6,16 +6,22 @@ __Data__: 04/12/2020
 ## Argomenti
 
 - Soluzione esercizio della lezione 2 e commenti
-- 
+- Ripasso sugli argomenti richiesti
+- Operatori di selezione: IN, BETWEEN, LIKE, IS
+- Il concetto di NULL nel DB
 
 ## Ripasso
 
-- [ ] Normalizzazione (1)
-- [x] CASE ... WHEN (1)
+- [x] Associazioni nel modello ER
+- [x] Normalizzazione
+- [x] Operatori relazionali
+- [x] Congiunzione con JOIN
+- [x] Foreign key in SSMS
+- [x] CASE ... WHEN
 
 ## Esercitazioni
 
-- [Esercizio 2](/modulo-05/esercizio-2.md): Varie query su DB ricette
+- [Esercizio 3](/modulo-05/esercizio-3.md): Nuovo problema e relative query
 
 ## Riferimenti, bibliografia, sitografia
 

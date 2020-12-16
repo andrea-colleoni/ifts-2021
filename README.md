@@ -17,7 +17,7 @@
 - [Lezione 1](/modulo-05/lezione-1.md): Introduzione RDBMS, data modeling
 - [Lezione 2](/modulo-05/lezione-2.md): Operatori relazionali e SQL
 - [Lezione 3](/modulo-05/lezione-3.md): Ripasso e altri operatori
-- [Lezione 4](/modulo-05/lezione-4.md): ...
+- [Lezione 4](/modulo-05/lezione-4.md): Outer join, aggregazione e raggruppamento, JDBC
 
 ## Links utili:
 

@@ -1,5 +1,7 @@
 # Esercizio 2
 
+[Torna alla lezione](/modulo-05/lezione-2.md)
+
 # Creare il database ricette
 
 - Eseguire in SQL Server Management Studio lo script presente nella cartella query/db-ricette.sql

@@ -1,5 +1,7 @@
 # Esercizio 4
 
+[Torna alla lezione](/modulo-05/lezione-4.md)
+
 # Operazioni preliminari
 
 - Assicurarsi che la FK_ricetta_cuoco, abbia "Enforce Foreign Key Constraint" a False
@@ -15,6 +17,7 @@
 - Inserire sei ricette 2 senza cuoco (id_cuoco = NULL), 2 con un cuoco inesistente e 2 con un cuoco tra quelli disponibili
 - Inserire una nuova categoria: 6, Impossibile!
 - Modificare la difficolta delle ricette senza cuoco impostandola a 1
+- Modificare la categoria delle ricette con difficolta 4 con il nuovo valore 6 (categoria impossibile)
 
 ### Interrogazioni con outer join
 
@@ -28,5 +31,10 @@
 
 - Contare i cuochi
 - Visualizzare il numero totale di ingredienti per ogni ricetta
-- 
+- Per ogni ingrediente di ogni ricetta visualizzare la quantità tiotale utilizzata
+- Contare i passi (istruzioni) di ogni ricetta
+- Visualizzare ogni ricetta con il tempo totale di completamento
+- Visualizzare l'elenco dei cuochi con il tempo totale di realizzazione delle relative ricette
+- Visualizzare un elenco delle categorie di ricette con il tempo medio di realizzazione
+
 

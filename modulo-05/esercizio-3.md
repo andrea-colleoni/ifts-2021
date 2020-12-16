@@ -1,5 +1,7 @@
 # Esercizio 3
 
+[Torna alla lezione](/modulo-05/lezione-3.md)
+
 # Creare il database del problema descritto
 
 - Dobbiamo creare un applicazione per gestire un magazzino automatizzato. Per mettere degli articoli nel magazzino, è necessario inserire nel DB un ordine a fornitore. L'ordine a fornitore, riporta: i dati identificativi del fornitore, la data, un numero univoco e contiene un elenco di articoli (righe d'ordine). Ogni riga d'ordine riporta il codice e la descrizione dell'articolo, la quantità, il prezzo unitario di acquisto.

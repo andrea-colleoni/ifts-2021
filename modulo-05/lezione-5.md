@@ -8,9 +8,17 @@ __Data__: 17/12/2020
 
 - Ripasso
 - Verifica
+- Altri oggetti di un DB SQL (cenno)
+  - Viste
+  - Indici, e indici UNIQUE
+- Estensioni procedurali di SQL in SQL Server (cenno)
+  - Procedure
+- Funzioni in SQL (cenno)
+  - Funzioni scalari e di aggregazione
 
 ## Esercitazioni
 
+- [Esercizio 5](/modulo-05/esercizio-5.md): Esercizio JDBC
 
 ## Riferimenti, bibliografia, sitografia
 

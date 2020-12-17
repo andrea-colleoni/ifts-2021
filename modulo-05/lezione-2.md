@@ -37,3 +37,4 @@ I libri sono nella cartella "books"
 - [SQL](https://it.wikipedia.org/wiki/Structured_Query_Language)
 - [SQL Tutorial](https://www.w3schools.com/sql/)
 - [Normalizzazione](https://it.wikipedia.org/wiki/Normalizzazione_(informatica))
+- [Algebra relazionale](https://en.wikipedia.org/wiki/Relational_algebra)

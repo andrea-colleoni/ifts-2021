@@ -2,6 +2,7 @@
 
 __Data__: 16/12/2020  
 [Torna all'indice](/README.md)  
+[Lezione 3](/modulo-05/lezione-3.md): Ripasso e altri operatori  
 
 ## Argomenti
 

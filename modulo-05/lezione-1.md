@@ -2,6 +2,7 @@
 
 __Data__: 02/12/2020  
 [Torna all'indice](/README.md)  
+[Lezione 2](/modulo-05/lezione-2.md): Operatori relazionali e SQL
 
 ## Argomenti
 

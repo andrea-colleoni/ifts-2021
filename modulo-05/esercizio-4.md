@@ -9,17 +9,15 @@
 
 # Scrivere le seuenti query in SQL sullo schema "ricette"
 
-## Con delle query di INSERT
-
-### Inserimenti e modifiche usando SQL (non vale usare editor grafico!!)
+## Inserimenti e modifiche usando SQL (non vale usare editor grafico!!)
 
 - Inserire due nuovi cuochi
 - Inserire sei ricette 2 senza cuoco (id_cuoco = NULL), 2 con un cuoco inesistente e 2 con un cuoco tra quelli disponibili
-- Inserire una nuova categoria: 6, Impossibile!
+- Inserire una nuova categoria: 7, Impossibile :-)
 - Modificare la difficolta delle ricette senza cuoco impostandola a 1
 - Modificare la categoria delle ricette con difficolta 4 con il nuovo valore 6 (categoria impossibile)
 
-### Interrogazioni con outer join
+## Interrogazioni con outer join
 
 - Elencare i cuochi che non hanno ricette
 - Elencare le ricette che non hanno cuochi
@@ -27,7 +25,7 @@
 - Elencare gli ingeienti che non sono mai stati utilizzati
 - Elencare le categorie che non hanno ricette
 
-### Interrogazioni con funzioni di aggregazione e raggruppamenti
+## Interrogazioni con funzioni di aggregazione e raggruppamenti
 
 - Contare i cuochi
 - Visualizzare il numero totale di ingredienti per ogni ricetta

@@ -2,6 +2,8 @@
 
 __Data__: 03/12/2020  
 [Torna all'indice](/README.md)  
+[Lezione 1](/modulo-05/lezione-1.md): Introduzione RDBMS, data modeling  
+[Lezione 3](/modulo-05/lezione-3.md): Ripasso e altri operatori  
 
 ## Argomenti
 

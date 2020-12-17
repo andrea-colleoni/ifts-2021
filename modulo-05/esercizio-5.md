@@ -8,7 +8,7 @@
 ## Lettura di dati dal database ricette
 
 - Scrivere alcuni programmi (diverse classi con main() nello stesso progetto) che si connettono al DB ricette su SQL Server e:
-  - Mostra le'elco delle ricette
+  - Mostra l'elenco delle ricette
   - Chiede all'utente l'id di una ricetta e mostra il couco che l'ha creata
   - Chiede all'utente una ricetta e stampa i passi per realizzarla
 

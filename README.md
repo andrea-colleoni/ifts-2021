@@ -20,6 +20,15 @@
 - [Lezione 4](/modulo-05/lezione-4.md): Outer join, aggregazione e raggruppamento, JDBC
 - [Lezione 5](/modulo-05/lezione-5.md): Ripasso, verifica e conclusioni
 
+## Modulo 06 - Tecnologie Web per la UI e Back End (80 ore)
+
+- [Lezione 1](/modulo-06/lezione-1.md): 
+
+
+## Modulo 10 - Laboratorio d'Impresa - Project Work  (60 ore)
+
+- [Lezione 4](/modulo-10/lezione-4.md): Lavori sui progetti
+
 ## Links utili:
 
 - https://code.visualstudio.com/: *Visual Studio Code*, un editor per developers

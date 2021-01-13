@@ -24,4 +24,5 @@ __Data__: 17/12/2020
 
 I libri sono nella cartella "books"
 
-- 
+- [ISO 8601 per le date](https://it.wikipedia.org/wiki/ISO_8601)
+- [Funzioni T-SQL](https://docs.microsoft.com/en-us/sql/t-sql/functions/functions?view=sql-server-ver15)

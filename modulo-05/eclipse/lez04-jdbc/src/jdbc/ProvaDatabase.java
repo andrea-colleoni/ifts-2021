@@ -10,7 +10,7 @@ public class ProvaDatabase {
 
 	public static void main(String[] args) throws SQLException, ClassNotFoundException {
 		// cerco il driver e lo carico
-		Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+		//Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 		
 		// in una stringa definisco i parametri della mia connessione al DB
 		String connectionUrl = "jdbc:sqlserver://localhost:1433;" +  

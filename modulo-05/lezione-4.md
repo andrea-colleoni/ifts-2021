@@ -38,3 +38,5 @@ I libri sono nella cartella "books"
 
 - [Driver JDBC per SQL Server](https://docs.microsoft.com/it-it/sql/connect/jdbc/download-microsoft-jdbc-driver-for-sql-server?view=sql-server-ver15#download)
 - [Connessione a SQL Server con JDBC](https://docs.microsoft.com/it-it/sql/connect/jdbc/using-the-jdbc-driver?view=sql-server-ver15)
+- [Book n. 1: SQL Queries Succintly.pdf](/books/SQL_Queries_Succinctly.pdf)
+- [Book n. 2: SQL Notes For Professionals.pdf](/books/SQLNotesForProfessionals.pdf)

@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Links, URLs e immagini</title>
+    </head>
+    <body id="inizio">
+        <h1>Link, immagini, URLs, ecc.</h1>
+        <!-- il link si crea usando un'ancora (a) -->
+        <!-- href è il riferimento ipertestuale (URL) a cui devo muovermi quando 
+        attivo questa ancora -->
+        <!-- target: dove si aprirà il link; il valore _blank indica una nuova scheda -->
+        <p>Testo: vai <a href="https://www.google.it" target="_blank">qui per aprire google</a></p>
+        <h1>Gli URL</h1>
+        <p><a href="https://www.w3schools.com/html/html_links.asp" target="_blank">W3SChools</a></p>
+        <ul>
+            <!-- URL relativo: è relativo all'URL in cui mi trovo attualmente (in questo caso è relativo alla pagina in cui
+                sto scrivendo) -->
+            <!-- negli URL relativi posso usare il simbolo ../ per indicare l'elemento gerarchico di livello superiore (il parent URL) -->
+            <li>Vai al <a href="#pannello-1">pannello 1</a></li>
+            <li>Vai al <a href="#pannello-2">pannello 2</a></li>
+            <li>Vai al <a href="#pannello-3">pannello 3</a></li>
+        </ul>
+        <div id="pannello-1">
+            <h2>Pannello 1</h2>
+            <p>Questo paragrafo è contenuto in un pannello DIV</p>
+            <img src="../immagini/logo-itsar.png">
+            <p>Torna <a href="#inizio">su</a></p>
+        </div>
+        <div id="pannello-2">
+            <h2>Pannello 2</h2>
+            <p>Questo paragrafo è contenuto in un pannello DIV</p>
+            <img src="laboratorio.jpg">
+            <p>Torna <a href="#inizio">su</a></p>
+        </div>
+        <div id="pannello-3">
+            <h2>Pannello 3</h2>
+            <p>Questo paragrafo è contenuto in un pannello DIV</p>
+            <img src="https://www.google.it/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+            <img src="https://printpub.net/files/chunks/58c15a4da0d5565d70000bdc/post-single_58c15ac1a0d5560a6a0015a6.jpg">
+            <p>Torna <a href="#inizio">su</a></p>
+        </div>
+    </body>
+</html>

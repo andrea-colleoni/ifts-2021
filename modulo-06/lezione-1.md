@@ -8,7 +8,7 @@ __Data__: 13/01/2021
 
 - Architettura sevice oriented
 - Front end e backend
-- Approccio al fron end web
+- Approccio al front end web
 - HTML
   - Sintassi di base
   - Struttura del documento: __html__, __head__, __body__
@@ -33,5 +33,5 @@ I libri sono nella cartella "books"
 - [W3Schools HTML Tutorial](https://www.w3schools.com/html/default.asp)
 - [W3C - World Wide Web Consortium](https://www.w3.org/)
 - [HTML Tutorial](/books/html_tutorial.pdf)
-- [HTML Crash Course]("/books/HTML & CSS Crash Course_ Learn html and css with easy to follow-step-by-step tutorials.pdf")
+- [HTML Crash Course](/books/HTML%20&%20CSS%20Crash%20Course_%20Learn%20html%20and%20css%20with%20easy%20to%20follow-step-by-step%20tutorials.pdf)
 - [HTML & CSS Tutorial](/books/duckett.pdf)

@@ -45,5 +45,5 @@ I libri sono nella cartella "books"
 - [Bootstrap CSS Framework](https://getbootstrap.com/)
 - [Font Awesome](https://fontawesome.com/)
 - [HTML & CSS Tutorial](/books/duckett.pdf)
-- [Learn CSS in One Day]("/books/Learn CSS in One Day and Learn It Well.pdf")
+- [Learn CSS in One Day](/books/Learn%20CSS%20in%20One%20Day%20and%20Learn%20It%20Well.pdf)
 - [Bootstrap tutorial](/books/bootstrap_tutorial.pdf)

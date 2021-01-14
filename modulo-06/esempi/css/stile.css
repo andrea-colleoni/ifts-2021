@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* selettore per tag */
+h1 {
+    background-color: aqua;
+    border: 5px dotted red;
+}
+img {
+    width: 100px;
+}
+/* selettore per class (.) */
+.importante {
+    color: violet!important;
+}
+.non-esiste {
+    height: 200px;
+}
+/* selettore per id (#) */
+#pnl-1 {
+    font-variant: small-caps;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+#pnl-2 {
+    border: 1px solid green;
+}
+h1 {
+    background-color: yellow;
+}

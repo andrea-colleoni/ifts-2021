@@ -1,56 +1,146 @@
 <html>
-    <head>
-        <title>Prototipo sito web</title>
-    </head>
-    <body>
-        <header>
-            <div id="logo">
-                <img src=".." style="min-width: 80px;min-height: 80px;" title="Logo">
-            </div>
-            <div id="titolo">
-                Applicazione web bellissima
-            </div>
-            <div id="pulsanti-azione">
-                <img src=".." style="min-width: 30px;min-height: 30px;" title="Carrello">
-                <img src=".." style="min-width: 30px;min-height: 30px;" title="Profilo">
-            </div>
-        </header>
-        <nav>
-            <ul id="voci-menu">
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-            </ul>
-        </nav>
-        <main>
-            <div id="descrizione">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas congue felis, 
-                    eu laoreet turpis bibendum pulvinar. Vestibulum sagittis consequat elit in congue. 
-                    In porta erat vitae elit venenatis, non pharetra turpis hendrerit. Nulla vel ante sed 
-                    augue vestibulum ultrices. Suspendisse potenti. Fusce nulla ex, volutpat in ultricies 
-                    in, blandit in tellus. Nunc scelerisque vestibulum mauris, sit amet viverra massa 
-                    placerat vitae. Nulla quam nibh, pretium sit amet accumsan sed, volutpat imperdiet 
-                    metus. Fusce condimentum vestibulum bibendum. In hac habitasse platea dictumst. 
-                    Proin sit amet neque ultricies, sollicitudin erat euismod, mollis nunc. Fusce a enim 
-                    blandit, imperdiet libero non, ullamcorper sapien. Cras sed tincidunt nibh, in 
-                    vestibulum metus. Morbi non aliquet nulla. Praesent aliquet turpis et orci placerat 
-                    tempor. Sed quis neque congue, tristique nunc venenatis, tempus magna.</p>
-            </div>
-            <div id="prodotti">
-                <div id="prodotto-1">
-                    <div id="img-prodotto">
-                        <img src=".." style="min-width: 100px;min-height: 100px;" title="Prodotto n. 1">
+  <head>
+    <title>Prototipo sito web</title>
+    
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+        crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../fontawesome-free-5.15.1-web/css/all.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header class="row">
+        <div id="logo" class="col-3">
+          <img
+            src="../immagini/logo-itsar.png"
+            style="max-height: 80px"
+            title="Logo"
+          />
+        </div>
+        <div id="titolo" class="col-6 text-center">
+            <h2>Applicazione web bellissima</h2>
+        </div>
+        <div id="pulsanti-azione" class="col-3 text-right" style="font-size: 48px;">
+            <i class="fas fa-shopping-basket"></i>
+            <i class="fas fa-user-tie"></i>
+        </div>
+      </header>
+      <div class="row">
+        <nav id="voci-menu" class="col-3">
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Item 1
+                      </button>
+                    </h2>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Item 1.....
                     </div>
-                    <div id="campi-prodotto">
-
-                    </div>
-                    <div id="azioni-prodotto">
-                        <img src=".." style="min-width: 30px;min-height: 30px;" title="Aggiungi">
-                        <img src=".." style="min-width: 30px;min-height: 30px;" title="Modifica">
-                        <img src=".." style="min-width: 30px;min-height: 30px;" title="Elimina">
-                    </div>
+                  </div>
                 </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Item 2
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Item 2 ....
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Item 3
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Item 3 ...
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </nav>
+        <main  class="col-9">
+        <div id="descrizione">
+            <p class="text-justify">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+            egestas congue felis, eu laoreet turpis bibendum pulvinar.
+            Vestibulum sagittis consequat elit in congue. In porta erat vitae
+            elit venenatis, non pharetra turpis hendrerit. Nulla vel ante sed
+            augue vestibulum ultrices. Suspendisse potenti. Fusce nulla ex,
+            volutpat in ultricies in, blandit in tellus. Nunc scelerisque
+            vestibulum mauris, sit amet viverra massa placerat vitae. Nulla quam
+            nibh, pretium sit amet accumsan sed, volutpat imperdiet metus. Fusce
+            condimentum vestibulum bibendum. In hac habitasse platea dictumst.
+            Proin sit amet neque ultricies, sollicitudin erat euismod, mollis
+            nunc. Fusce a enim blandit, imperdiet libero non, ullamcorper
+            sapien. Cras sed tincidunt nibh, in vestibulum metus. Morbi non
+            aliquet nulla. Praesent aliquet turpis et orci placerat tempor. Sed
+            quis neque congue, tristique nunc venenatis, tempus magna.
+            </p>
+        </div>
+        <div id="prodotti" class="my-5">
+            <div id="prodotto-1" class="row">
+            <div id="img-prodotto" class="col-4">
+                <img
+                    src="../immagini/open-day.jpg"
+                    class="shadow p-3 mb-5 bg-white rounded"
+                    style="max-width: 300px;"
+                    title="Prodotto n. 1"
+                />
             </div>
-        </main>
-    </body>
+            <div id="campi-prodotto" class="col-4">
+                <form>
+                    <div class="form-row">
+                      <div class="form-group">
+                        <label for="taglia">Taglia</label>
+                        <select class="form-control" id="taglia">
+                          <option>XS</option>
+                          <option>S</option>
+                          <option>M</option>
+                          <option>L</option>
+                          <option>XL</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="quantita">Quantità</label>
+                        <input id="quantita" type="number" class="form-control" placeholder="Quantità">
+                      </div>              
+                    </div>        
+                </form>
+            </div>
+            <div id="azioni-prodotto" class="col-4 text-right" style="font-size: 48px;">
+                <i class="fas fa-plus-circle"></i>
+                <i class="fas fa-edit"></i>
+                <i class="fas fa-trash-alt"></i>
+            </div>
+            </div>
+        </div>
+        </main>          
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" 
+        crossorigin="anonymous"></script>    
+  </body>
 </html>

@@ -1,7 +1,7 @@
 # Modulo 6 - Lezione 2
 
 __Data__: 14/01/2021  
-[Torna all'indice](/README.md)
+[Torna all'indice](/README.md)  
 [Lezione 1](/modulo-06/lezione-1.md): Introduzione a HTML   
 
 ## Argomenti

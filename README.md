@@ -22,7 +22,8 @@
 
 ## Modulo 06 - Tecnologie Web per la UI e Back End (80 ore)
 
-- [Lezione 1](/modulo-06/lezione-1.md): Introduzione a HTML...
+- [Lezione 1](/modulo-06/lezione-1.md): Introduzione a HTML
+- [Lezione 2](/modulo-06/lezione-2.md): Introduzione a CSS e Bootstrap
 
 
 ## Modulo 10 - Laboratorio d'Impresa - Project Work  (60 ore)

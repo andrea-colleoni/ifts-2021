@@ -2,7 +2,8 @@
 
 __Data__: 14/01/2021  
 [Torna all'indice](/README.md)  
-[Lezione 1](/modulo-06/lezione-1.md): Introduzione a HTML   
+[Lezione 1](/modulo-06/lezione-1.md): Introduzione a HTML  
+[Lezione 3](/modulo-06/lezione-3.md): Introduzione a JS    
 
 ## Argomenti
 

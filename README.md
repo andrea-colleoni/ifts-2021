@@ -24,6 +24,7 @@
 
 - [Lezione 1](/modulo-06/lezione-1.md): Introduzione a HTML
 - [Lezione 2](/modulo-06/lezione-2.md): Introduzione a CSS e Bootstrap
+- [Lezione 3](/modulo-06/lezione-3.md): Introduzione a JS
 
 
 ## Modulo 10 - Laboratorio d'Impresa - Project Work  (60 ore)

@@ -18,6 +18,10 @@ function contaClick() {
     window.document.getElementById('conteggio').innerText = numClick;
 }
 
+function altro() {
+    console.log('altro.....');
+}
+
 function espandi() {
     var mioDiv = window.document.getElementById('pnl-1');
     mioDiv.style = 'width: 500px;background-color: red;';

@@ -27,7 +27,7 @@ __Data__: 14/01/2021
   - Uso di semplici componenti: __btn__, __card__, __alert__
   - Uso di componenti più articolati: __accodion__, __carousel__
   - Uso del __Grid system__
-  - Responsiveness e design mobile first: verifica del funzionamento ai brealpoint
+  - Responsiveness e design mobile first: verifica del funzionamento ai breakpoint
 - Esercitazione guidata: applicazione di CSS con bootstrap al wireframe della lezione 1
 
 ## Esercitazioni

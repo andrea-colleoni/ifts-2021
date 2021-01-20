@@ -1,0 +1,20 @@
+<project 
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>it.itsrizzoli.ifts2021</groupId>
+  <artifactId>maven01-jdbc</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <name>Primo progetto Maven</name>
+  <description>Questa è una prova di progetto Maven</description>
+  <organization>
+  	<name>ITS Rizzoli</name>
+  </organization>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.microsoft.sqlserver</groupId>
+  		<artifactId>mssql-jdbc</artifactId>
+  		<version>8.4.1.jre14</version>
+  	</dependency>
+  </dependencies>
+</project>

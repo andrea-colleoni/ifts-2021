@@ -1,10 +1,16 @@
 package model;
 
+import java.util.List;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 
 // questa è una entità
 @Entity
@@ -26,12 +32,26 @@ public class Ricetta {
 	// tipo primitivo non si può fare
 	private Integer difficolta;
 	
-	@Column(name = "id_categoria", nullable = false)
-	private Integer idCategoria;
+//	@Column(name = "id_categoria", nullable = false)
+//	private Integer idCategoria;
 	
-	// nullable ha default a true, quindi lo specifico solo se è false
-	@Column(name = "id_cuoco")
-	private Integer idCuoco;
+	@ManyToOne
+	@JoinColumn(name = "id_categoria")
+	private Categoria categoria;
+	
+//	// nullable ha default a true, quindi lo specifico solo se è false
+//	@Column(name = "id_cuoco")
+//	private Integer idCuoco;
+	
+	@ManyToOne
+	@JoinColumn(name = "id_cuoco")
+	private Cuoco cuoco;
+	
+	@OneToMany(mappedBy = "ricetta")
+	private List<Istruzione> istruzioni;
+	
+	@ManyToMany(mappedBy = "ricette")
+	private List<Ingrediente> ingredienti;
 
 	public Integer getIdRicetta() {
 		return idRicetta;
@@ -57,26 +77,42 @@ public class Ricetta {
 		this.difficolta = difficolta;
 	}
 
-	public Integer getIdCategoria() {
-		return idCategoria;
-	}
-
-	public void setIdCategoria(Integer idCategoria) {
-		this.idCategoria = idCategoria;
-	}
-
-	public Integer getIdCuoco() {
-		return idCuoco;
-	}
-
-	public void setIdCuoco(Integer idCuoco) {
-		this.idCuoco = idCuoco;
-	}
-
 	@Override
 	public String toString() {
 		return "Ricetta [idRicetta=" + idRicetta + ", nomeRicetta=" + nomeRicetta + ", difficolta=" + difficolta
-				+ ", idCategoria=" + idCategoria + ", idCuoco=" + idCuoco + "]";
+				+ "]";
+	}
+
+	public Cuoco getCuoco() {
+		return cuoco;
+	}
+
+	public void setCuoco(Cuoco cuoco) {
+		this.cuoco = cuoco;
+	}
+
+	public Categoria getCategoria() {
+		return categoria;
+	}
+
+	public void setCategoria(Categoria categoria) {
+		this.categoria = categoria;
+	}
+
+	public List<Istruzione> getIstruzioni() {
+		return istruzioni;
+	}
+
+	public void setIstruzioni(List<Istruzione> istruzioni) {
+		this.istruzioni = istruzioni;
+	}
+
+	public List<Ingrediente> getIngredienti() {
+		return ingredienti;
+	}
+
+	public void setIngredienti(List<Ingrediente> ingredienti) {
+		this.ingredienti = ingredienti;
 	}
 
 }

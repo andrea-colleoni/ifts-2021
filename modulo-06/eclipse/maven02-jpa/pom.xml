@@ -11,11 +11,15 @@
 			<artifactId>hibernate-jpa-2.1-api</artifactId>
 			<version>1.0.2.Final</version>
 		</dependency>
+		<!-- <dependency> <groupId>com.microsoft.sqlserver</groupId> <artifactId>mssql-jdbc</artifactId> 
+			<version>8.4.1.jre14</version> </dependency> -->
+		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 		<dependency>
-			<groupId>com.microsoft.sqlserver</groupId>
-			<artifactId>mssql-jdbc</artifactId>
-			<version>8.4.1.jre14</version>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.23</version>
 		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
 		<dependency>
 			<groupId>org.hibernate</groupId>

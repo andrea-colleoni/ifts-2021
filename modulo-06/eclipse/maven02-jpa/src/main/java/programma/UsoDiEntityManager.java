@@ -17,7 +17,7 @@ public class UsoDiEntityManager {
 		Ricetta r = new Ricetta();
 		r.setNomeRicetta("Macceroni ai formaggi");
 		r.setDifficolta(3);
-		r.setIdCategoria(1);
+//		r.setIdCategoria(1);
 		
 		// una transazione è un perimetro dentro al quale posso fare modifiche
 		// ai dati sul DB

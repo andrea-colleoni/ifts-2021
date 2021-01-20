@@ -3,10 +3,35 @@
 __Data__: 15/01/2021  
 [Torna all'indice](/README.md)
 [Lezione 2](/modulo-06/lezione-2.md): Introduzione a CSS e Bootstrap  
+[Lezione 4](/modulo-06/lezione-4.md): Gestione delle dipendenze con Maven e uso di JPA Hibernate per la persistenza  
 
 ## Argomenti
 
-- 
+- Riassunto su HTML e CSS
+- Ripresa argomento Bootstrap
+  - Grid System
+  - CSS Box Model
+- Introduzione a JavaScript
+- Scrittura di messaggi sulla console
+- JS runtime: NodeJS
+  - Installazione di NodeJS
+  - Esecuzione dell'interprete REPL
+  - Sintassi di base di JS
+- JS Type System
+  - Differenze con Java
+  - Uso della memoria
+- Tipi nativi
+- Oggetti e array
+- Funzioni (base)
+- JS nel browser
+- Chrome Developer Tools
+- Analisi degli elementi HTML in dev tools
+- Analisi dello stile in dev tools
+- Esecuzione in console dei dev tools di codice JS in modalità REPL
+- Attivazione di codice JS da HTML
+  - Eventi: onclick, ondblclick, onmouseover, onmouseout
+- Lettura di attributi di HTML Elements
+- Modifica di attributi di HTML Elements
 
 ## Esercitazioni
 

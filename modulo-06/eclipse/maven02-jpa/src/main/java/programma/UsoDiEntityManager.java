@@ -15,7 +15,7 @@ public class UsoDiEntityManager {
 		EntityManager em = emf.createEntityManager();
 		
 		Ricetta r = new Ricetta();
-		r.setNomeRicetta("Macceroni ai formaggi");
+		r.setNomeRicetta("Maccheroni ai formaggi");
 		r.setDifficolta(3);
 //		r.setIdCategoria(1);
 		

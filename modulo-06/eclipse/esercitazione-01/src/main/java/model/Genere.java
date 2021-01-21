@@ -1,5 +1,6 @@
 package model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -22,6 +23,14 @@ public class Genere {
 	
 	@OneToMany(mappedBy = "genere", cascade = CascadeType.ALL)
 	private List<Libro> libri;
+	
+	public void addLibro(Libro l) {
+		if (libri == null ) {
+			libri = new ArrayList<>();
+		}
+		libri.add(l);
+		l.setGenere(this);
+	}	
 
 	public Integer getIdGenere() {
 		return idGenere;

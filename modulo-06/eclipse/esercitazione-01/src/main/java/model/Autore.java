@@ -1,6 +1,7 @@
 package model;
 
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -21,8 +22,19 @@ public class Autore {
 	@Column(nullable = false, length = 100)
 	private String nome;
 	
-	@ManyToMany(mappedBy = "autori", cascade = CascadeType.ALL)
+	@ManyToMany(cascade = CascadeType.ALL)
 	private List<Libro> libri;
+	
+	public void addLibro(Libro l) {
+		if (libri == null ) {
+			libri = new ArrayList<>();
+		}
+		libri.add(l);
+		if (l.getAutori() == null) {
+			l.setAutori(new ArrayList<>());
+		}
+		l.getAutori().add(this);
+	}
 
 	public Integer getIdAutore() {
 		return idAutore;

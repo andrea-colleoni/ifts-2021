@@ -19,14 +19,29 @@ public class App {
 		a.setNome("Stephen King");
 		
 		Libro l = new Libro();
-		l.setCodiceISBN("9780340364772");
-		l.setTitolo("It");
+		l.setCodiceISBN("9780452278905");
+		l.setTitolo("The Green Mile");
 		l.setNumeroPagine(800);
 		
-		l.setGenere(g);
+		//l.setGenere(g);
+		g.addLibro(l);
+		
+		/*
+		// aggiungo l'autore agli autori del libro
 		var autori = new ArrayList<Autore>();
 		autori.add(a);
 		l.setAutori(autori);
+		// aggiungo il libro ai libri dell'autore
+		var libri = new ArrayList<Libro>();
+		libri.add(l);
+		a.setLibri(libri);
+		*/
+		
+		// questo metodo creato nella classe modello, aggiunge in modo 
+		// completo (dai due lati dell'associazione) e safe (inizializzando
+		// le liste nulle) l'autore al libro
+		l.addAutore(a);
+		
 		try {
 			// le operazioni di MODIFICA dei dati devono stare in una transazione
 			em.getTransaction().begin(); // inizio

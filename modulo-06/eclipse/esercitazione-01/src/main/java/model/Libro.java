@@ -1,5 +1,6 @@
 package model;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -27,11 +28,22 @@ public class Libro {
 	
 	private Integer numeroPagine;
 	
-	@ManyToMany(cascade = CascadeType.ALL)
+	@ManyToMany(mappedBy = "libri", cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH})
 	private List<Autore> autori;
 	
-	@ManyToOne(cascade = CascadeType.ALL)
+	@ManyToOne(cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH})
 	private Genere genere;
+	
+	public void addAutore(Autore a) {
+		if (autori == null ) {
+			autori = new ArrayList<>();
+		}
+		autori.add(a);
+		if (a.getLibri() == null) {
+			a.setLibri(new ArrayList<>());
+		}
+		a.getLibri().add(this);
+	}
 
 	public String getCodiceISBN() {
 		return codiceISBN;

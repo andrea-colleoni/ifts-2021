@@ -26,6 +26,8 @@
 - [Lezione 2](/modulo-06/lezione-2.md): Introduzione a CSS e Bootstrap
 - [Lezione 3](/modulo-06/lezione-3.md): Introduzione a JS
 - [Lezione 4](/modulo-06/lezione-4.md): Gestione delle dipendenze con Maven e uso di JPA Hibernate per la persistenza  
+- [Lezione 5](/modulo-06/lezione-5.md): Esercitazione guidata su JPA
+- [Lezione 6](/modulo-06/lezione-6.md): Web sul backend, servlet e web services  
 
 
 ## Modulo 10 - Laboratorio d'Impresa - Project Work  (60 ore)

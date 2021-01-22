@@ -3,6 +3,7 @@
 __Data__: 20/01/2021  
 [Torna all'indice](/README.md)
 [Lezione 3](/modulo-06/lezione-3.md): Introduzione a JS  
+[Lezione 5](/modulo-06/lezione-5.md): Esercitazione guidata su JPA  
 
 ## Argomenti
 

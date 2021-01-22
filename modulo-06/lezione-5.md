@@ -3,15 +3,14 @@
 __Data__: 21/01/2021  
 [Torna all'indice](/README.md)
 [Lezione 4](/modulo-06/lezione-4.md): Introduzione a JS  
+[Lezione 6](/modulo-06/lezione-6.md): Web sul backend, servlet e web services
 
 ## Argomenti
 
-- 
+- Esercitazione guidata su JPA
 
 ## Esercitazioni
 
-- Definire una o più entity del proprio progetto di gruppo in un progetto Maven/JPA
-- Verificare che il progetto sia in grado di connettersi al DB, di recuperare i record e di mapparli con le entità definite
 
 ## Riferimenti, bibliografia, sitografia
 

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Esempio full stack</title>
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+	crossorigin="anonymous">
+</head>
+<body onload="caricaLibri();">
+	<main class="container-fluid">
+		<div class="card">
+			<div class="card-body">
+				<h5 class="card-title">Elenco dei libri</h5>
+				<div class="btn btn-primary" onclick="caricaLibri();">Ricarica l'elenco</div>
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<td>Codice ISBN</td>
+							<td>Titolo</td>
+							<td>Numero pagine</td>
+							<td>Data di pubblicazione</td>
+						</tr>
+					</thead>
+					<tbody id="corpoTabella">
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</main>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+		crossorigin="anonymous"></script>
+	<script src="ajax.js"></script>
+</body>
+</html>

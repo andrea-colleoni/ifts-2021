@@ -10,7 +10,10 @@ __Data__: 27/01/2021
 
 ## Esercitazioni
 
-- 
+- Fare funzionare il progetto visto a lezione sul proprio PC
+- Sempre nello stesso progetto, aggiungere una nuova servlet + html + js per visualizzare un elenco di autori
+- Sempre nello stesso progetto, aggiungere una nuova servlet + html + js per visualizzare un elenco di generi
+- In un nuovo progetto, provare con una delle entità del progetto di gruppo a creare una visualizzazione web completa (html, css, js/ajax, servlet, jpa)
 
 ## Riferimenti, bibliografia, sitografia
 

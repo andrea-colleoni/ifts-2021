@@ -10,6 +10,7 @@ import springfox.documentation.spring.web.plugins.Docket;
 @Configuration
 public class SpringFoxConfig {
 
+	
 	public Docket api() {
 		// uso fluent api (pattern builder) per configurare spring fox
 		return new Docket(DocumentationType.OAS_30)

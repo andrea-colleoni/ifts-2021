@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -43,6 +44,23 @@ public class LibroController {
 	@PostMapping("/libri")
 	public Libro inserisci(@RequestBody Libro libro) {
 		return repository.save(libro);
+	}
+	
+	@PutMapping("/libri/{codiceISBN}")
+	public Libro aggiorna(@RequestBody Libro libro, @PathVariable String codiceISBN) {
+		repository
+				.findById(codiceISBN)
+				.ifPresentOrElse((l) -> {
+					l.setAutori(libro.getAutori());
+					l.setDataPubblicazione(libro.getDataPubblicazione());
+					l.setGenere(libro.getGenere());
+					l.setNumeroPagine(libro.getNumeroPagine());
+					l.setTitolo(libro.getTitolo());
+					repository.save(l);
+				}, () -> {
+					repository.save(libro);
+				});
+		return repository.findById(codiceISBN).get();
 	}
 
 }

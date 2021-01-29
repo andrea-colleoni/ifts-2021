@@ -13,14 +13,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import it.itsrizzoli.ifts.springboot01.exceptions.NotFoundException;
-import it.itsrizzoli.ifts.springboot01.model.Libro;
-import it.itsrizzoli.ifts.springboot01.repository.LibroRepository;
+import it.itsrizzoli.ifts.springboot01.model.Autore;
+import it.itsrizzoli.ifts.springboot01.repository.AutoreRepository;
 
 @RestController
-public class LibroController {
+public class AutoreController {
 	
 	@Autowired
-	private LibroRepository repository;
+	private AutoreRepository repository;
 	
 	/* 
 	 * 5 metodi:
@@ -31,45 +31,42 @@ public class LibroController {
 	 * - cancellare 1 record (DELETE item)
 	*/
 	
-	@GetMapping("/libri")
-	public List<Libro> all() {
+	@GetMapping("/autori")
+	public List<Autore> all() {
 		return repository.findAll();
 	}
 	
-	@GetMapping("/libri/{codiceISBN}")
-	public Libro byISBN(@PathVariable String codiceISBN) {
+	@GetMapping("/autori/{id}")
+	public Autore byISBN(@PathVariable Integer id) {
 		return repository
-				.findById(codiceISBN)
+				.findById(id)
 				.orElseThrow(() -> new NotFoundException());
 	}
 	
-	@PostMapping("/libri")
-	public Libro inserisci(@RequestBody Libro libro) {
-		return repository.save(libro);
+	@PostMapping("/autori")
+	public Autore inserisci(@RequestBody Autore autore) {
+		return repository.save(autore);
 	}
 	
-	@PutMapping("/libri/{codiceISBN}")
-	public Libro aggiorna(@RequestBody Libro libro, @PathVariable String codiceISBN) {
+	@PutMapping("/autori/{id}")
+	public Autore aggiorna(@RequestBody Autore autore, @PathVariable Integer id) {
 		return repository
-			.findById(codiceISBN)
-			.map(l -> {
-				l.setAutori(libro.getAutori());
-				l.setDataPubblicazione(libro.getDataPubblicazione());
-				l.setGenere(libro.getGenere());
-				l.setNumeroPagine(libro.getNumeroPagine());
-				l.setTitolo(libro.getTitolo());
-				return repository.save(l);
+			.findById(id)
+			.map(a -> {
+				a.setNome(autore.getNome());
+				a.setLibri(autore.getLibri());
+				return repository.save(a);
 			})
 			.orElseGet(() -> {
-				libro.setCodiceISBN(codiceISBN);
-				return repository.save(libro);
+				autore.setIdAutore(id);
+				return repository.save(autore);
 			});
 	}
 	
-	@DeleteMapping("/libri/{codiceISBN}")
-	public void eimina(@PathVariable String codiceISBN) {
+	@DeleteMapping("/autori/{id}")
+	public void eimina(@PathVariable Integer id) {
 		repository.delete(repository
-			.findById(codiceISBN)
+			.findById(id)
 			.orElseThrow(() -> new NotFoundException())
 			);
 	}

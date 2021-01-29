@@ -12,9 +12,14 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 @Entity
+@JsonIdentityInfo(
+		generator = ObjectIdGenerators.PropertyGenerator.class, 
+		property = "idAutore"
+)
 public class Autore {
 
 	@Id
@@ -24,20 +29,18 @@ public class Autore {
 	@Column(nullable = false, length = 100)
 	private String nome;
 	
-	@JsonIgnore
 	@ManyToMany(cascade = CascadeType.ALL)
-	private List<Libro> libri;
+	private List<Libro> libri = new ArrayList<>();
 	
 	public void addLibro(Libro l) {
-		if (libri == null ) {
-			libri = new ArrayList<>();
-		}
 		libri.add(l);
-		if (l.getAutori() == null) {
-			l.setAutori(new ArrayList<>());
-		}
 		l.getAutori().add(this);
 	}
+	
+	public void removeLibro(Libro l) {
+		libri.remove(l);
+		l.getAutori().remove(this);
+	}	
 
 	public Integer getIdAutore() {
 		return idAutore;

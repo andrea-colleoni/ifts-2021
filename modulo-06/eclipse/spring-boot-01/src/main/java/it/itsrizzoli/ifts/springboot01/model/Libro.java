@@ -13,7 +13,14 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+
 @Entity
+@JsonIdentityInfo(
+		generator = ObjectIdGenerators.PropertyGenerator.class, 
+		property = "codiceISBN"
+)
 public class Libro {
 	
 	@Id
@@ -28,21 +35,26 @@ public class Libro {
 	
 	private Integer numeroPagine;
 	
-	@ManyToMany(mappedBy = "libri", cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH})
-	private List<Autore> autori;
+	@ManyToMany(
+			mappedBy = "libri", 
+			cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH}
+	)
+	private List<Autore> autori = new ArrayList<>();
 	
-	@ManyToOne(cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH})
+	@ManyToOne(
+			 cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH},
+			 optional = true
+	)
 	private Genere genere;
 	
 	public void addAutore(Autore a) {
-		if (autori == null ) {
-			autori = new ArrayList<>();
-		}
 		autori.add(a);
-		if (a.getLibri() == null) {
-			a.setLibri(new ArrayList<>());
-		}
 		a.getLibri().add(this);
+	}
+	
+	public void removeAutore(Autore a) {
+		autori.remove(a);
+		a.getLibri().remove(this);
 	}
 
 	public String getCodiceISBN() {

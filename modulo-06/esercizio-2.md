@@ -16,3 +16,11 @@
 - Nel componente root, visualizzate un'istanza di componente per ciascua figura
 - (OPZIONALE) visualizzare ciascun componente in un accordion bootstrap
 
+
+## Suggerimenti e procedure da ricordare
+
+- Creazione di una nuova applicazione angular: ```ng new nome-app```
+- Creazione di un componente: ```ng g c nome-componente```
+- Gestione di un evento click su un elemento: ```(click)="funzione()"```
+- Lettura di una variabile: ```{{variabile}}```
+- Uso di un componente in un template: ```<app-mio-componente></app-mio-componente>```

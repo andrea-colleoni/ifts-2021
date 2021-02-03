@@ -24,3 +24,17 @@
 - Gestione di un evento click su un elemento: ```(click)="funzione()"```
 - Lettura di una variabile: ```{{variabile}}```
 - Uso di un componente in un template: ```<app-mio-componente></app-mio-componente>```
+- installazione di bootstrap nell'applicazione:
+  - ```npm i bootstrap```
+  - ```npm i jquery```
+  - Modifica di "styles" e "scripts" in "angular.json", come nell'esempio visto in classe
+  ```
+   "styles": [
+        "node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "src/styles.css"
+    ],
+    "scripts": [
+        "node_modules/jquery/dist/jquery.min.js",
+        "node_modules/bootstrap/dist/js/bootstrap.min.js"
+    ]
+    ```

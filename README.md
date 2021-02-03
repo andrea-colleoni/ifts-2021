@@ -28,11 +28,15 @@
 - [Lezione 4](/modulo-06/lezione-4.md): Gestione delle dipendenze con Maven e uso di JPA Hibernate per la persistenza  
 - [Lezione 5](/modulo-06/lezione-5.md): Esercitazione guidata su JPA
 - [Lezione 6](/modulo-06/lezione-6.md): Web sul backend, servlet e web services  
+- [Lezione 7](/modulo-06/lezione-7.md): Comunicazione tra front end e back end  
+- [Lezione 8](/modulo-06/lezione-8.md): Utilizzo di Spring Boot  
+- [Lezione 9](/modulo-06/lezione-9.md): Single page application con Angular  
 
 
 ## Modulo 10 - Laboratorio d'Impresa - Project Work  (60 ore)
 
 - [Lezione 4](/modulo-10/lezione-4.md): Lavori sui progetti
+- [Lezione 5](/modulo-10/lezione-5.md): Lavori sui progetti
 
 ## Links utili:
 

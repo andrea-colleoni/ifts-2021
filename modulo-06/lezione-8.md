@@ -2,11 +2,12 @@
 
 __Data__: 28/01/2021  
 [Torna all'indice](/README.md)
-[Lezione 7](/modulo-06/lezione-7.md): Web sul backend, servlet e web services  
+[Lezione 7](/modulo-06/lezione-7.md): Comunicazione tra front end e back end  
+[Lezione 9](/modulo-06/lezione-9.md): Single page application con Angular  
 
 ## Argomenti
 
-- 
+- Spring Boot
 
 ## Esercitazioni
 

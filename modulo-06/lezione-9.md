@@ -1,13 +1,12 @@
-# Modulo 6 - Lezione 7
+# Modulo 6 - Lezione 9
 
-__Data__: 27/01/2021  
+__Data__: 03/02/2021  
 [Torna all'indice](/README.md)
-[Lezione 6](/modulo-06/lezione-6.md): Web sul backend, servlet e web services  
 [Lezione 8](/modulo-06/lezione-8.md): Utilizzo di Spring Boot  
 
 ## Argomenti
 
-- AJAX
+- 
 
 ## Esercitazioni
 

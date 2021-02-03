@@ -3,6 +3,7 @@
 __Data__: 22/01/2021  
 [Torna all'indice](/README.md)
 [Lezione 5](/modulo-06/lezione-5.md): Esercitazione guidata su JPA  
+[Lezione 7](/modulo-06/lezione-7.md): Comunicazione tra front end e back end  
 
 ## Argomenti
 

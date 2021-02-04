@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'primo-angular';
+  
+  menu: string;
+
+  setMenu(menu: string) {
+    this.menu = menu;
+  }
 }

@@ -1,9 +1,8 @@
-# Modulo 6 - Lezione 9
+# Modulo 6 - Lezione 10
 
-__Data__: 03/02/2021  
+__Data__: 04/02/2021  
 [Torna all'indice](/README.md)
-[Lezione 8](/modulo-06/lezione-8.md): Utilizzo di Spring Boot  
-[Lezione 10](/modulo-06/lezione-10.md): Angular e verifica finale   
+[Lezione 9](/modulo-06/lezione-9.md): Single page application con Angular  
 
 ## Argomenti
 

@@ -1,4 +1,7 @@
-<h1>Ciao mondo...</h1>
-<app-elenco></app-elenco>
-<app-elenco></app-elenco>
-<app-elenco></app-elenco>
+<div class="container-fluid">
+    <h1>Applicazione Libri</h1>
+    <div class="btn btn-secondary" (click)="setMenu('elenco')">Elenco libri</div>
+    <div class="btn btn-secondary" (click)="setMenu('nuovo')">Nuovo libro</div>
+    <app-elenco *ngIf="menu === 'elenco'"></app-elenco>
+    <app-nuovo-libro *ngIf="menu === 'nuovo'"></app-nuovo-libro>
+</div>

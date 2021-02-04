@@ -1,4 +1,6 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { Libro } from '../model/libro';
 
 @Component({
   selector: 'app-elenco',
@@ -7,36 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ElencoComponent implements OnInit {
 
-  testo = 'Valore della variabile';
+  libri: Libro[];
 
-  base = 1;
-  altezza = 15;
-
-  oggetto = {
-    nome: 'Andrea',
-    cognome: 'Colleoni',
-  }
-
-  constructor() { }
+  constructor(
+    private http: HttpClient,
+  ) { }
 
   ngOnInit(): void {
-  }
-  aumentaBase() {
-    this.base++;
-  }
-  diminuisciBase() {
-    this.base--;
-  }
-  aumentaAltezza() {
-    this.altezza++;
-  }
-  diminuisciAltezza() {
-    this.altezza--;
-  }
 
-  funzione() {
-    console.log('mi hai cliccato!!');
-    this.altezza = 25;
-  }
+    this.http.get<Libro[]>('http://localhost:8080/libri').subscribe((libri) => {
+      this.libri = libri;
+    });
 
+  }
+ 
 }
